@@ -1,12 +1,12 @@
 # ODEO
 
-ODEO is an interactive sound and visualiser tool where you can mix textures, loops, and effects to create unique soundscapes and visuals. With 30 sounds across 3 modes, you can experiment and create something new every time.
+ODEO is an interactive sound and visualizer tool that allows you to mix textures, loops, and effects to create unique soundscapes and visuals. With 30 sounds across 3 modes, you can experiment and create something new every time.
 
 Each click, tap, or key press triggers a new animation and sound. ODEO works across desktop, Android, iOS, and iPad, and lets you switch between different colour themes and animation styles.
 
 ## Getting Started
 
-To create your own version of ODEO, you’ll first need to download or clone the project files. Once you’ve done that, make sure you have the sound files in the same folder as the project files (they need to be named correctly – see below). Then, open **index.html** in your browser to start exploring and customising.
+To create your own version of ODEO, you’ll first need to download or clone the project files. Once you’ve done that, ensure you have the sound files in the same folder as the project files (they need to be named correctly – see below). Then, open **index.html** in your browser to start exploring and customising.
 
 - On **Desktop**, click or use the number keys (0-9) to play, and the spacebar to switch modes.
 - On **Mobile** or **Tablet**, tap anywhere on the screen to trigger animations and sounds. Tap the far-right side of the screen to switch modes.
@@ -23,14 +23,21 @@ Just make sure the filenames match what’s in **sketch.js** to make everything 
 
 ## Customising ODEO
 
-Want to create your own version of ODEO? Here’s how:
+Want to make ODEO your own? Here’s how:
 
 1. **Change the sounds**: Replace the sound files with your own (make sure they follow the naming conventions above).
 2. **Modify the animations**: Open the **`sketch.js`** file to edit the animations or add new ones.
 3. **Customise the styles**: If you want to change how things look, head to the **`style.css`** file to update the visual design or add new themes.
-4. **Experiment with the code**: Tinker with the Sketch to add new features, animations, or sound effects.
+4. **Experiment with the code**: Tinker with the **`sketch.js`** file to add new features, animations, or sound effects.
 
-If you make changes you think others would enjoy, feel free to submit a pull request. Contributions are always welcome!
+Once you're done, simply open **index.html** in your browser to see your changes!
+
+## Forking & Deployment
+
+If you’re forking or deploying ODEO, **make sure to delete or modify the `CNAME` file**. This file currently points to the live ODEO site, and if you don’t update it, your project may not work correctly.
+
+- **Delete the `CNAME` file**, or
+- **Modify it** with your own custom domain if you're deploying the tool online.
 
 ## Licence
 
